@@ -97,7 +97,7 @@
         <number>0</number>
        </property>
        <item row="0" column="0">
-        <widget class="QFrame" name="line1">
+        <widget class="QFrame" name="entry1">
          <property name="maximumSize">
           <size>
            <width>16777215</width>
@@ -124,7 +124,7 @@
            <number>6</number>
           </property>
           <item>
-           <widget class="QLabel" name="label_8">
+           <widget class="QLabel" name="entry1_num_Label">
             <property name="minimumSize">
              <size>
               <width>40</width>
@@ -145,7 +145,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="label_7">
+           <widget class="QLabel" name="entry1_desc_Label">
             <property name="minimumSize">
              <size>
               <width>200</width>
@@ -161,7 +161,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit_4">
+           <widget class="QLineEdit" name="entry1_LineEdit">
             <property name="placeholderText">
              <string>X0-XXX-XX000</string>
             </property>
@@ -171,7 +171,7 @@
         </widget>
        </item>
        <item row="1" column="0">
-        <widget class="QFrame" name="line2">
+        <widget class="QFrame" name="entry2">
          <property name="maximumSize">
           <size>
            <width>16777215</width>
@@ -198,7 +198,7 @@
            <number>6</number>
           </property>
           <item>
-           <widget class="QLabel" name="label_6">
+           <widget class="QLabel" name="entry2_num_Label">
             <property name="minimumSize">
              <size>
               <width>40</width>
@@ -219,7 +219,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="label_5">
+           <widget class="QLabel" name="entry2_desc_Label">
             <property name="minimumSize">
              <size>
               <width>200</width>
@@ -235,7 +235,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QCheckBox" name="checkBox">
+           <widget class="QCheckBox" name="entry2_CheckBox">
             <property name="text">
              <string>CheckBox</string>
             </property>
@@ -245,7 +245,7 @@
         </widget>
        </item>
        <item row="2" column="0">
-        <widget class="QFrame" name="line3">
+        <widget class="QFrame" name="entry3">
          <property name="maximumSize">
           <size>
            <width>16777215</width>
@@ -269,7 +269,7 @@
            <number>6</number>
           </property>
           <item>
-           <widget class="QLabel" name="label_9">
+           <widget class="QLabel" name="entry3_num_Label">
             <property name="minimumSize">
              <size>
               <width>40</width>
@@ -290,7 +290,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="label_10">
+           <widget class="QLabel" name="entry3_desc_Label">
             <property name="minimumSize">
              <size>
               <width>200</width>
@@ -306,14 +306,14 @@
            </widget>
           </item>
           <item>
-           <widget class="QCheckBox" name="checkBox_2">
+           <widget class="QCheckBox" name="entry3_CheckBox">
             <property name="text">
              <string>CheckBox</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit">
+           <widget class="QLineEdit" name="entry3_LineEdit">
             <property name="maxLength">
              <number>4</number>
             </property>
@@ -355,7 +355,7 @@
           <number>6</number>
          </property>
          <item row="0" column="0">
-          <widget class="QLabel" name="wONumberLabel_2">
+          <widget class="QLabel" name="wo_num_Label">
            <property name="minimumSize">
             <size>
              <width>150</width>
@@ -371,7 +371,7 @@
           </widget>
          </item>
          <item row="0" column="1">
-          <widget class="QSpinBox" name="wONumberSpinBox_2">
+          <widget class="QSpinBox" name="wo_num_SpinBox">
            <property name="maximumSize">
             <size>
              <width>60</width>
@@ -387,7 +387,7 @@
           </widget>
          </item>
          <item row="1" column="0">
-          <widget class="QLabel" name="serialNumberLabel_2">
+          <widget class="QLabel" name="serial_num_Label">
            <property name="minimumSize">
             <size>
              <width>150</width>
@@ -403,7 +403,7 @@
           </widget>
          </item>
          <item row="1" column="1">
-          <widget class="QSpinBox" name="serialNumberSpinBox_2">
+          <widget class="QSpinBox" name="serial_num_SpinBox">
            <property name="maximumSize">
             <size>
              <width>60</width>
@@ -426,7 +426,7 @@
           <number>6</number>
          </property>
          <item row="0" column="0">
-          <widget class="QLabel" name="wOStartLabel_2">
+          <widget class="QLabel" name="wo_start_Label">
            <property name="minimumSize">
             <size>
              <width>150</width>
@@ -442,7 +442,7 @@
           </widget>
          </item>
          <item row="0" column="1">
-          <widget class="QDateEdit" name="wOStartDateEdit_2">
+          <widget class="QDateEdit" name="wo_start_DateEdit">
            <property name="maximumSize">
             <size>
              <width>100</width>
@@ -461,7 +461,7 @@
           </widget>
          </item>
          <item row="1" column="0">
-          <widget class="QLabel" name="wOFinishedLabel_2">
+          <widget class="QLabel" name="wo_finish_Label">
            <property name="minimumSize">
             <size>
              <width>150</width>
@@ -477,7 +477,7 @@
           </widget>
          </item>
          <item row="1" column="1">
-          <widget class="QDateEdit" name="wOFinishedDateEdit_2">
+          <widget class="QDateEdit" name="wo_finish_DateEdit">
            <property name="maximumSize">
             <size>
              <width>100</width>
@@ -581,6 +581,9 @@
    </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <property name="geometry">
     <rect>
      <x>0</x>
